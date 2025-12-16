@@ -92,7 +92,3 @@ Submission Guidelines
 Push your code to a GitHub repository.
 
 Include a README.md with:
-
-Setup instructions
-
-API endpoint
