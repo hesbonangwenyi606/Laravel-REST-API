@@ -109,4 +109,4 @@ Correctness of API functionality (CRUD, auth, validation)
 
 Code quality, readability, and project structure
 
-Proper 
+Pro
