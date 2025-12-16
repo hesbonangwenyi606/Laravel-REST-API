@@ -109,6 +109,4 @@ Correctness of API functionality (CRUD, auth, validation)
 
 Code quality, readability, and project structure
 
-Proper use of Laravel conventions and best practices
-
-Op
+Proper use of Laravel conventions and best practic
