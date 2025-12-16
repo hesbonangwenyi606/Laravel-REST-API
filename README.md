@@ -90,5 +90,3 @@ DELETE	/api/products/{id}	Delete a product
 Submission Guidelines
 
 Push your code to a GitHub repository.
-
-Include a README.md with:
