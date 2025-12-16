@@ -105,4 +105,4 @@ Deadline: 48 hours from receiving the assignment
 
 Evaluation Criteria
 
-Correctness of API functionalit
+Correctn
