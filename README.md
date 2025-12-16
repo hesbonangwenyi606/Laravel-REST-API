@@ -101,4 +101,4 @@ Brief explanation of your design decisions
 
 Submit the GitHub link via email by the deadline.
 
-Deadline: 48 hours from receiving the as
+Deadline: 48 hours from rec
