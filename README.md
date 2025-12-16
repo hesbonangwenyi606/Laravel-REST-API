@@ -117,4 +117,4 @@ Clear documentation in README
 
 Notes
 
-You may use any Laravel 
+You may 
