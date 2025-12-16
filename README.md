@@ -44,16 +44,10 @@ cd <repo-folder>
 composer install
 
 3. Configure Environment
-
 Copy .env.example to .env:
-
 cp .env.example .env
-
-
 Set up database credentials in .env
-
 Generate app key:
-
 php artisan key:generate
 
 4. Run Migrations
@@ -61,17 +55,11 @@ php artisan migrate
 
 5. Run the Server
 php artisan serve
-
-
 The API will run at http://localhost:8000.
 
 6. (Optional) Docker Setup
-
 If Docker is configured:
-
 docker-compose up -d
-
-
 Access the app at http://localhost:8000
 
 API Endpoints
