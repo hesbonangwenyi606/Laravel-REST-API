@@ -1,5 +1,4 @@
 Project Overview
-
 The goal of this assignment is to evaluate your full-stack development skills, understanding of Laravel/PHP, REST APIs, and general project structure. This is a mini REST API project for managing products.
 
 You are required to implement a Laravel API that allows CRUD operations on products, including basic authentication. Bonus points will be given for clean code, proper project structure, and optional Docker setup.
