@@ -7,23 +7,17 @@ use Illuminate\Foundation\Support\Providers\RouteServiceProvider as ServiceProvi
 
 class RouteServiceProvider extends ServiceProvider
 {
-    /**
-     * The path to your application's "home" route.
-     *
-     * Typically used for redirects after login.
-     */
     public const HOME = '/home';
 
-    /**
-     * Define your route model bindings, pattern filters, etc.
-     */
     public function boot(): void
     {
         $this->routes(function () {
-            Route::middleware('api')
-                ->prefix('api')
+            // Load API routes
+            Route::prefix('api')
+                ->middleware('api')
                 ->group(base_path('routes/api.php'));
 
+            // Load web routes
             Route::middleware('web')
                 ->group(base_path('routes/web.php'));
         });
