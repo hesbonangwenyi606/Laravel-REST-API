@@ -100,5 +100,3 @@ API endpoints
 Brief explanation of your design decisions
 
 Submit the GitHub link via email by the deadline.
-
-Deadline: 4
