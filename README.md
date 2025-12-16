@@ -117,4 +117,3 @@ Clear documentation in README
 
 Notes
 
-You may 
