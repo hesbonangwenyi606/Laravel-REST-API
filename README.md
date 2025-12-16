@@ -107,6 +107,4 @@ Evaluation Criteria
 
 Correctness of API functionality (CRUD, auth, validation)
 
-Code quality, readability, and project structure
-
-Pro
+Code quality, readability, and project structu
