@@ -113,5 +113,4 @@ Proper use of Laravel conventions and best practices
 
 Optional: Docker setup, pagination, tests
 
-Clear documentation in README
-
+Clear documentation i
