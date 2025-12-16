@@ -111,4 +111,4 @@ Code quality, readability, and project structure
 
 Proper use of Laravel conventions and best practices
 
-Optional: Docker setup, pagination, 
+Optional: Docker setup, 
