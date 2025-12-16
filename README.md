@@ -97,6 +97,4 @@ Setup instructions
 
 API endpoints
 
-Brief explanation of your design decisions
-
-Submit th
+Brief explanation of your design decis
