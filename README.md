@@ -120,5 +120,3 @@ Notes
 You may use any Laravel packages you are comfortable with.
 
 Focus on working, clean, and maintainable code rather than advanced features.
-
-If something is unclear, make reasonable assumptions and note them in the README.
