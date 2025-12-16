@@ -87,4 +87,3 @@ POST	/api/products	Create a new product
 GET	/api/products/{id}	Get product details
 PUT	/api/products/{id}	Update a product
 DELETE	/api/products/{id}	Delete a product
-Submi
