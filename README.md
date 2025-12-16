@@ -103,6 +103,4 @@ Submit the GitHub link via email by the deadline.
 
 Deadline: 48 hours from receiving the assignment
 
-Evaluation Criteria
-
-Correctn
+Evaluation
