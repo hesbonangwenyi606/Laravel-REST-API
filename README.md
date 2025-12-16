@@ -89,4 +89,4 @@ PUT	/api/products/{id}	Update a product
 DELETE	/api/products/{id}	Delete a product
 Submission Guidelines
 
-Push your code to a GitHub repository.
+Push your code 
