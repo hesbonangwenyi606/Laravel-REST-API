@@ -117,4 +117,4 @@ Clear documentation in README
 
 Notes
 
-You may use any Laravel packages you are comfortable with.
+You may use any Laravel packages you are comf
