@@ -115,5 +115,3 @@ Optional: Docker setup, pagination, tests
 
 Clear documentation in README
 
-Notes
-
