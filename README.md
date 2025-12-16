@@ -5,29 +5,17 @@ You are required to implement a Laravel API that allows CRUD operations on produ
 
 Project Requirements
 1. Core Requirements
-
 Build a Laravel API project (latest stable version)
-
 Implement Authentication using Laravel Sanctum or JWT
-
 Implement CRUD operations for Products
-
 Product fields:
-
 id (auto-increment)
-
 name (string)
-
 price (decimal)
-
 description (text)
-
 created_at & updated_at timestamps
-
 Input validation for API requests
-
 Proper HTTP status codes for responses
-
 Well-structured project following Laravel conventions
 
 2. Bonus (Optional)
