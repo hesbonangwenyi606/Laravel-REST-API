@@ -1,25 +1,17 @@
-use Illuminate\Http\Request;
-use Illuminate\Support\Facades\Hash;
-use App\Models\User;
+<?php
 
-Route::post('/login', function(Request $request) {
-    $request->validate([
-        'email' => 'required|email',
-        'password' => 'required'
-    ]);
+use Illuminate\Support\Facades\Route;
+use App\Http\Controllers\Api\AuthController;
+use App\Http\Controllers\Api\ProductController;
 
-    $user = User::where('email', $request->email)->first();
+// Public route: login
+Route::post('/login', [AuthController::class, 'login']);
 
-    if (! $user || ! Hash::check($request->password, $user->password)) {
-        return response()->json([
-            'message' => 'Invalid credentials'
-        ], 401);
-    }
+// Protected routes: require authentication via Sanctum
+Route::middleware('auth:sanctum')->group(function () {
+    // CRUD for products
+    Route::apiResource('products', ProductController::class);
 
-    $token = $user->createToken('api-token')->plainTextToken;
-
-    return response()->json([
-        'token' => $token,
-        'token_type' => 'Bearer'
-    ]);
+    // Logout route
+    Route::post('/logout', [AuthController::class, 'logout']);
 });
