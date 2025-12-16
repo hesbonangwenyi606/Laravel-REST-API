@@ -1,39 +1,52 @@
 <?php
 
-namespace App\Http\Controllers\Api;
+use Illuminate\Http\Request;
+use Illuminate\Support\Facades\Route;
+use Illuminate\Support\Facades\Hash;
+use App\Models\User;
+use App\Http\Controllers\Api\ProductController;
 
-use App\Http\Controllers\Controller;
-use App\Http\Requests\StoreProductRequest;
-use App\Http\Requests\UpdateProductRequest;
-use App\Models\Product;
+/*
+|--------------------------------------------------------------------------
+| API Routes
+|--------------------------------------------------------------------------
+|
+| Here is where you can register API routes for your application. These
+| routes are loaded by the RouteServiceProvider within a group which
+| is assigned the "api" middleware group. Enjoy building your API!
+|
+*/
 
-class ProductController extends Controller
-{
-    public function index()
-    {
-        return response()->json(Product::paginate(10), 200);
+// Login route
+Route::post('/login', function (Request $request) {
+    $request->validate([
+        'email' => 'required|email',
+        'password' => 'required'
+    ]);
+
+    $user = User::where('email', $request->email)->first();
+
+    if (!$user || !Hash::check($request->password, $user->password)) {
+        return response()->json([
+            'message' => 'Invalid credentials'
+        ], 401);
     }
 
-    public function store(StoreProductRequest $request)
-    {
-        $product = Product::create($request->validated());
-        return response()->json($product, 201);
-    }
+    $token = $user->createToken('api-token')->plainTextToken;
 
-    public function show(Product $product)
-    {
-        return response()->json($product, 200);
-    }
+    return response()->json([
+        'token' => $token,
+        'token_type' => 'Bearer'
+    ], 200);
+});
 
-    public function update(UpdateProductRequest $request, Product $product)
-    {
-        $product->update($request->validated());
-        return response()->json($product, 200);
-    }
+// Protected routes (require authentication)
+Route::middleware('auth:sanctum')->group(function () {
+    Route::apiResource('products', ProductController::class);
 
-    public function destroy(Product $product)
-    {
-        $product->delete();
-        return response()->json(null, 204);
-    }
-}
+    // Optional: Logout route
+    Route::post('/logout', function (Request $request) {
+        $request->user()->currentAccessToken()->delete();
+        return response()->json(['message' => 'Logged out'], 200);
+    });
+});
