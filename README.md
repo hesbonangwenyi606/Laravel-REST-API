@@ -95,6 +95,4 @@ Include a README.md with:
 
 Setup instructions
 
-API endpoints
-
-Brief explanation 
+API endpoint
