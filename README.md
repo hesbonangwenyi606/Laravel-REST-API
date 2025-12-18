@@ -19,7 +19,7 @@ Well-structured project following Laravel conventions
 2. Bonus (Optional)
 Docker setup for easy local environment setup
 Pagination for listing products
-Unit or feature tests for API e
+Unit or feature tests
 
 Setup Instructions
 1. Clone the Repository
@@ -39,7 +39,7 @@ php artisan key:generate
 4. Run Migrations
 php artisan migrate
 
-5. Run the Server
+5. Run the cServcer
 php artisan serve
 The API will run at http://localhost:8000.
 
