@@ -19,7 +19,7 @@ Well-structured project following Laravel conventions
 2. Bonus (Optional)
 Docker setup for easy local environment setup
 Pagination for listing products
-Unit or feature tests for API endpoints
+Unit or feature tests for API e
 
 Setup Instructions
 1. Clone the Repository
