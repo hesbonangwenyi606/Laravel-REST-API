@@ -69,7 +69,7 @@ Generate the application key:
 
 php artisan key:generate
 
-4️⃣ Run Migrations
+## Run Migrations
 php artisan migrate
 
 ## Start the Server
