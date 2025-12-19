@@ -137,7 +137,8 @@ app/Http/Controllers – API controllers
 
 routes/api.php – API routes
 
-database/
+database/migrations – Database schema
+
 ## Author
 Hesbon Angwenyi
 Full-Stack Developer
