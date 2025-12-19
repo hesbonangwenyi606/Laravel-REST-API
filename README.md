@@ -109,10 +109,8 @@ POST	/api/products	Create a new product
 GET	/api/products/{id}	Get product details
 PUT	/api/products/{id}	Update a product
 DELETE	/api/products/{id}	Delete a product
-✅ Validation & Error Handling
-
+## Validation & Error Handling
 All incoming requests are validated
-
 Meaningful validation error messages are returned
 
 **Proper HTTP status codes are used:***
