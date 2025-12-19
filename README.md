@@ -156,5 +156,4 @@ Full-Stack Developer
 Laravel | REST APIs | React | Node.js
 
 📄 License
-
 This project is open-source and available for educational and assessment purposes.
