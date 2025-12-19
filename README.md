@@ -155,5 +155,5 @@ Hesbon Angwenyi
 Full-Stack Developer
 Laravel | REST APIs | React | Node.js
 
-📄 License
+## License
 This project is open-source and available for educational and assessment purposes.
