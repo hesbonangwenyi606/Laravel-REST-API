@@ -43,7 +43,7 @@ price	Decimal
 description	Text
 created_at	Timestamp
 updated_at	Timestamp
-🚀 Setup Instructions
+## Setup Instructions
 ## Clone the Repository
 git clone <your-repo-link>
 cd <repo-folder>
