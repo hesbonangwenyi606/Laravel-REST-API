@@ -115,7 +115,7 @@ All incoming requests are validated
 
 Meaningful validation error messages are returned
 
-Proper HTTP status codes are used:
+**Proper HTTP status codes are used:***
 200 OK
 201 Created
 401 Unauthorized
