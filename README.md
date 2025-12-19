@@ -92,11 +92,11 @@ Access the application at:
 http://localhost:8000
 
 🔗 API Endpoints
-🔑 Authentication
+**Authentication**
 Method	Endpoint	Description
 POST	/api/register	Register a new user
 POST	/api/login	Login and receive auth token
-📦 Products (Protected Routes)
+Products (Protected Routes)
 ## All product endpoints require authentication
 
 **Add header:**
