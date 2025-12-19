@@ -128,7 +128,6 @@ Proper HTTP status codes are used:
 422 Validation Error
 
 📂 Project Structure
-
 The project follows standard Laravel conventions:
 app/Models – Eloquent models
 app/Http/Controllers – API controllers
