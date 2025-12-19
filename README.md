@@ -91,7 +91,7 @@ Access the application at:
 
 http://localhost:8000
 
-🔗 API Endpoints
+## API Endpoints
 **Authentication**
 Method	Endpoint	Description
 POST	/api/register	Register a new user
