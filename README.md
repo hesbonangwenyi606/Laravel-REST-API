@@ -32,8 +32,7 @@ Users receive a token after login
 
 Protected routes require a valid Bearer Token
 
-📦 Product Model
-
+## Product Model
 **Each product contains the following fields:**
 Field	Type
 id	Auto-increment
