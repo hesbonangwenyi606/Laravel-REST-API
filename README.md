@@ -72,7 +72,7 @@ php artisan key:generate
 4️⃣ Run Migrations
 php artisan migrate
 
-5️⃣ Start the Server
+## Start the Server
 php artisan serve
 
 
