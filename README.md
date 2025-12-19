@@ -76,8 +76,7 @@ php artisan migrate
 php artisan serve
 
 
-The API will be available at:
-
+**The API will be available at:**
 http://localhost:8000
 If Docker is configured:
 docker-compose up -d
