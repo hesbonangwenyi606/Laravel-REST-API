@@ -54,7 +54,6 @@ composer install
 3️⃣ Environment Configuration
 
 Copy the example environment file:
-
 cp .env.example .env
 
 
@@ -62,7 +61,6 @@ cp .env.example .env
 DB_DATABASE=your_database
 DB_USERNAME=your_username
 DB_PASSWORD=your_password
-
 
 **Generate the application key:**
 php artisan key:generate
