@@ -44,7 +44,7 @@ description	Text
 created_at	Timestamp
 updated_at	Timestamp
 🚀 Setup Instructions
-1️⃣ Clone the Repository
+## Clone the Repository
 git clone <your-repo-link>
 cd <repo-folder>
 
