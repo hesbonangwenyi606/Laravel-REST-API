@@ -12,8 +12,7 @@ Create, read, update, and delete products
 
 Secure endpoints using token-based authentication
 
-🛠 Tech Stack
-
+## Tech Stack
 PHP (8.x recommended)
 Laravel (latest stable version)
 Laravel Sanctum (Authentication)
