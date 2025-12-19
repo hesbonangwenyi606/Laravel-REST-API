@@ -147,8 +147,6 @@ Postman
 
 Insomnia
 
-cURL
-
 ## Author
 Hesbon Angwenyi
 Full-Stack Developer
