@@ -145,7 +145,6 @@ You can test endpoints using:
 
 Postman
 
-Inso
 ## Author
 Hesbon Angwenyi
 Full-Stack Developer
