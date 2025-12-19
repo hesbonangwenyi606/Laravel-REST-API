@@ -143,8 +143,7 @@ database/migrations – Database schema
 
 You can test endpoints using:
 
-Postman
-
+Pos
 ## Author
 Hesbon Angwenyi
 Full-Stack Developer
