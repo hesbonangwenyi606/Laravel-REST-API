@@ -65,8 +65,7 @@ DB_USERNAME=your_username
 DB_PASSWORD=your_password
 
 
-Generate the application key:
-
+**Generate the application key:**
 php artisan key:generate
 
 ## Run Migrations
