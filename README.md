@@ -58,8 +58,7 @@ Copy the example environment file:
 cp .env.example .env
 
 
-Update database credentials in .env:
-
+**Update database credentials in .env:**
 DB_DATABASE=your_database
 DB_USERNAME=your_username
 DB_PASSWORD=your_password
