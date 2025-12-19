@@ -48,7 +48,7 @@ updated_at	Timestamp
 git clone <your-repo-link>
 cd <repo-folder>
 
-2️⃣ Install Dependencies
+## Install Dependencies
 composer install
 
 ## Environment Configuration
