@@ -1,58 +1,160 @@
-Project Overview
-The goal of this assignment is to evaluate your full-stack development skills, understanding of Laravel/PHP, REST APIs, and general project structure. This is a mini REST API project for managing products.
+Product Management REST API (Laravel)
+📌 Project Overview
 
-Project Requirements
-1. Core Requirements
-Build a Laravel API project (latest stable version)
-Implement Authentication using Laravel Sanctum or JWT
-Implement CRUD operations for Products
-Product fields:
-id (auto-increment)
-name (string)
-price (decimal)
-description (text)
-created_at & updated_at timestamps
-Input validation for API requests
-Proper HTTP status codes for responses
-Well-structured project following Laravel conventions
+This project is a mini RESTful API built with Laravel (latest stable version) to manage products.
+It demonstrates full-stack backend skills including authentication, CRUD operations, validation, and API best practices.
 
-2. Bonus (Optional)
-Docker setup for easy local environment setup
-Pagination for listing 
+The API allows users to:
 
-Setup Instructions
-1. Clone the Repository
+Register and authenticate
+
+Create, read, update, and delete products
+
+Secure endpoints using token-based authentication
+
+🛠 Tech Stack
+
+PHP (8.x recommended)
+
+Laravel (latest stable version)
+
+Laravel Sanctum (Authentication)
+
+MySQL / PostgreSQL (Any supported Laravel database)
+
+Docker (Optional)
+
+🔐 Authentication
+
+Authentication is implemented using Laravel Sanctum.
+
+Users receive a token after login
+
+Protected routes require a valid Bearer Token
+
+📦 Product Model
+
+Each product contains the following fields:
+
+Field	Type
+id	Auto-increment
+name	String
+price	Decimal
+description	Text
+created_at	Timestamp
+updated_at	Timestamp
+🚀 Setup Instructions
+1️⃣ Clone the Repository
 git clone <your-repo-link>
 cd <repo-folder>
 
-2. Install Dependencies
+2️⃣ Install Dependencies
 composer install
 
-3. Configure Environment
-Copy .env.example to .env:
+3️⃣ Environment Configuration
+
+Copy the example environment file:
+
 cp .env.example .env
-Set up database credentials in .env
-Generate app key:
+
+
+Update database credentials in .env:
+
+DB_DATABASE=your_database
+DB_USERNAME=your_username
+DB_PASSWORD=your_password
+
+
+Generate the application key:
+
 php artisan key:generate
 
-4. Run Migrations
+4️⃣ Run Migrations
 php artisan migrate
 
-5. Run the cServcer
+5️⃣ Start the Server
 php artisan serve
-The API will run at http://localhost:8000.
 
-6. (Optional) Docker Setup
+
+The API will be available at:
+
+http://localhost:8000
+
+🐳 (Optional) Docker Setup
+
 If Docker is configured:
-docker-compose up -d
-Access the app at http://localhost:8000
 
-API Endpoints
+docker-compose up -d
+
+
+Access the application at:
+
+http://localhost:8000
+
+🔗 API Endpoints
+🔑 Authentication
 Method	Endpoint	Description
 POST	/api/register	Register a new user
-POST	/api/login	Login and get auth token
+POST	/api/login	Login and receive auth token
+📦 Products (Protected Routes)
+
+All product endpoints require authentication
+Add header:
+
+Authorization: Bearer {token}
+
+Method	Endpoint	Description
 GET	/api/products	List all products
 POST	/api/products	Create a new product
 GET	/api/products/{id}	Get product details
 PUT	/api/products/{id}	Update a product
 DELETE	/api/products/{id}	Delete a product
+✅ Validation & Error Handling
+
+All incoming requests are validated
+
+Meaningful validation error messages are returned
+
+Proper HTTP status codes are used:
+
+200 OK
+
+201 Created
+
+401 Unauthorized
+
+404 Not Found
+
+422 Validation Error
+
+📂 Project Structure
+
+The project follows standard Laravel conventions:
+
+app/Models – Eloquent models
+
+app/Http/Controllers – API controllers
+
+routes/api.php – API routes
+
+database/migrations – Database schema
+
+🧪 Testing (Optional)
+
+You can test endpoints using:
+
+Postman
+
+Insomnia
+
+cURL
+
+👤 Author
+
+Hesbon Angwenyi
+Full-Stack Developer
+Laravel | REST APIs | React | Node.js
+
+📄 License
+
+This project is open-source and available for educational and assessment purposes.
