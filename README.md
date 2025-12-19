@@ -141,7 +141,7 @@ database/migrations – Database schema
 
 🧪 Testing (Optional)
 
-You can test endpo
+You
 ## Author
 Hesbon Angwenyi
 Full-Stack Developer
