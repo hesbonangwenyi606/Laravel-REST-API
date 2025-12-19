@@ -34,8 +34,7 @@ Protected routes require a valid Bearer Token
 
 📦 Product Model
 
-Each product contains the following fields:
-
+**Each product contains the following fields:**
 Field	Type
 id	Auto-increment
 name	String
@@ -43,6 +42,7 @@ price	Decimal
 description	Text
 created_at	Timestamp
 updated_at	Timestamp
+
 ## Setup Instructions
 **Clone the Repository**
 git clone <your-repo-link>
