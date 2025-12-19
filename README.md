@@ -141,8 +141,7 @@ database/migrations – Database schema
 
 🧪 Testing (Optional)
 
-You can test endpoints using:
-
+You can test endpo
 ## Author
 Hesbon Angwenyi
 Full-Stack Developer
