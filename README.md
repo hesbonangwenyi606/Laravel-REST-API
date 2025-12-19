@@ -139,7 +139,7 @@ routes/api.php – API routes
 
 database/migrations – Database schema
 
-🧪 Testing (Optional)
+🧪 Testing 
 ## Author
 Hesbon Angwenyi
 Full-Stack Developer
