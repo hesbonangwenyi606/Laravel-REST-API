@@ -51,9 +51,8 @@ cd <repo-folder>
 2️⃣ Install Dependencies
 composer install
 
-3️⃣ Environment Configuration
+## Environment Configuration
 cp .env.example .env
-
 
 **Update database credentials in .env:**
 DB_DATABASE=your_database
