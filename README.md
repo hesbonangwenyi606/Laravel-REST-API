@@ -25,7 +25,6 @@ MySQL / PostgreSQL (Any supported Laravel database)
 Docker (Optional)
 
 🔐 Authentication
-
 Authentication is implemented using Laravel Sanctum.
 Users receive a token after login
 Protected routes require a valid Bearer Token
