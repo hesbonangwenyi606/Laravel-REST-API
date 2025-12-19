@@ -145,8 +145,7 @@ You can test endpoints using:
 
 Postman
 
-Insomnia
-
+Inso
 ## Author
 Hesbon Angwenyi
 Full-Stack Developer
