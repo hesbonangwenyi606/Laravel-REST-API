@@ -52,8 +52,6 @@ cd <repo-folder>
 composer install
 
 3️⃣ Environment Configuration
-
-Copy the example environment file:
 cp .env.example .env
 
 
