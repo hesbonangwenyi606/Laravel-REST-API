@@ -98,7 +98,7 @@ POST	/api/register	Register a new user
 POST	/api/login	Login and receive auth token
 📦 Products (Protected Routes)
 
-All product endpoints require authentication
+## All product endpoints require authentication
 
 **Add header:**
 Authorization: Bearer {token}
