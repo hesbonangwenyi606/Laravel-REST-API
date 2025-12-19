@@ -102,7 +102,6 @@ All product endpoints require authentication
 Add header:
 
 Authorization: Bearer {token}
-
 Method	Endpoint	Description
 GET	/api/products	List all products
 POST	/api/products	Create a new product
