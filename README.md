@@ -5,7 +5,6 @@ This project is a mini RESTful API built with Laravel (latest stable version) to
 It demonstrates full-stack backend skills including authentication, CRUD operations, validation, and API best practices.
 
 The API allows users to:
-
 Register and authenticate
 Create, read, update, and delete products
 Secure endpoints using token-based authentication
