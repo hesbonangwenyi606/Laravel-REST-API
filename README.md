@@ -149,7 +149,7 @@ Insomnia
 
 cURL
 
-👤 Author
+## Author
 Hesbon Angwenyi
 Full-Stack Developer
 Laravel | REST APIs | React | Node.js
