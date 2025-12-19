@@ -116,15 +116,10 @@ All incoming requests are validated
 Meaningful validation error messages are returned
 
 Proper HTTP status codes are used:
-
 200 OK
-
 201 Created
-
 401 Unauthorized
-
 404 Not Found
-
 422 Validation Error
 
 ## Project Structure
