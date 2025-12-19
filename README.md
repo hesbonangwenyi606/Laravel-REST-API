@@ -143,7 +143,6 @@ database/migrations – Database schema
 
 You can test endpoints using:
 
-Pos
 ## Author
 Hesbon Angwenyi
 Full-Stack Developer
