@@ -1,5 +1,5 @@
 Product Management REST API (Laravel)
-📌 Project Overview
+**Project Overview**
 This project is a mini RESTful API built with Laravel (latest stable version) to manage products.
 It demonstrates full-stack backend skills including authentication, CRUD operations, validation, and API best practices.
 
