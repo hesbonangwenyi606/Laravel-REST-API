@@ -79,9 +79,6 @@ php artisan serve
 The API will be available at:
 
 http://localhost:8000
-
-🐳 (Optional) Docker Setup
-
 If Docker is configured:
 docker-compose up -d
 
