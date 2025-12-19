@@ -83,12 +83,9 @@ http://localhost:8000
 🐳 (Optional) Docker Setup
 
 If Docker is configured:
-
 docker-compose up -d
 
-
 Access the application at:
-
 http://localhost:8000
 
 ## API Endpoints
