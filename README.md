@@ -15,14 +15,10 @@ Secure endpoints using token-based authentication
 🛠 Tech Stack
 
 PHP (8.x recommended)
-
 Laravel (latest stable version)
-
 Laravel Sanctum (Authentication)
-
 MySQL / PostgreSQL (Any supported Laravel database)
-
-Docker (Optional)
+Docker
 
 ## Authentication
 Authentication is implemented using Laravel Sanctum.
