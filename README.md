@@ -134,9 +134,7 @@ The project follows standard Laravel conventions:
 app/Models – Eloquent models
 
 app/Http/Controllers – API controllers
-
 routes/api.php – API routes
-
 database/migrations – Database schema
 
 ## Author
